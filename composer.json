@@ -1,0 +1,15 @@
+{
+    "name": "bauerdot/czech-library",
+    "description": "New library taking care of czech (svátky - státní svátky a jmeniny)",
+    "autoload": {
+        "psr-4": {
+            "Bauerdot\\CzechLibrary\\": "src/"
+        }
+    },
+    "require":{
+        "php": ">=8.0"    
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    }
+}
